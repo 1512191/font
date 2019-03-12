@@ -1,0 +1,45 @@
+<table class="table container-fluid list">
+  <thead class="btn-primary" *ngFor="let hero of Header">
+    <tr>
+      <th>{{hero.id}}</th>
+      <th>{{hero.name}}</th>
+      <th>Type</th>
+      <th>Status</th>
+      <th>Employee</th>
+      <th>Description</th>
+      <th><button title="Add" data-toggle="modal" data-target="#myModal" class="btn btn-success"><i class="fas fa-plus-square"></i> Add</button></th>
+      
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-primary">
+      <td>Default</td>
+      <td>Defaultson</td>
+      <td>def@somemail.com</td>
+      <td>def@somemail.com</td>
+      <td>def@somemail.com</td>
+      <td>def@somemail.com</td>
+      <td><i title="Edit" class="fas fa-pencil-alt"></i><i title="Delete" class="fas fa-trash-alt"></i></td>
+    </tr> 
+    <tr class="table-danger">
+      <td>Default</td>
+      <td>Defaultson</td>
+      <td>def@somemail.com</td>
+      <td>def@somemail.com</td>
+      <td>def@somemail.com</td>
+      <td>def@somemail.com</td>
+      <td><i title="Edit" class="fas fa-pencil-alt"></i><i title="Delete" class="fas fa-trash-alt"></i></td>
+    </tr> 
+    <tr class="table-success">
+      <td>Default</td>
+      <td>Defaultson</td>
+      <td>def@somemail.com</td>
+      <td>def@somemail.com</td>
+      <td>def@somemail.com</td>
+      <td>def@somemail.com</td>
+      <td><i title="Edit" class="fas fa-pencil-alt"></i><i title="Delete" class="fas fa-trash-alt"></i></td>
+    </tr> 
+    
+  </tbody>
+</table>

@@ -1,0 +1,21 @@
+.list{
+    width: 80%;
+    margin:auto;
+}
+.fa-pencil-alt{
+    color: #007bff;
+    padding-left: 10px;
+    padding-right:10px;
+}
+.fa-trash-alt{
+    color: red;
+    padding-left: 10px;
+    padding-right:10px;
+}
+table{
+    text-align: center;
+}
+.btn-success{
+    border-radius: 10px;
+    padding-bottom: 1px;
+}
